@@ -1,6 +1,7 @@
 # ERP System
 
 A simple ERP system built with PHP and MySQL for customer, item, and invoice management.
+A complete Enterprise Resource Planning (ERP) system built with PHP and MySQL for managing customers, inventory, and business reports.
 
 ## Features
 - Customer Management (Add, View, Delete)
@@ -44,4 +45,26 @@ A simple ERP system built with PHP and MySQL for customer, item, and invoice man
 - invoices (id, invoice_number, invoice_date, customer_id, total_amount, created_at)
 - invoice_items (id, invoice_id, item_id, quantity, unit_price, total_price)
 
+### Local Development Links
 
+
+Main Pages:
+```bash
+http://localhost/erp-system/
+http://localhost/erp-system/index.php
+http://localhost/erp-system/customers.php
+http://localhost/erp-system/items.php
+http://localhost/erp-system/reports.php
+```
+
+Database Management:
+```bash
+http://localhost/phpmyadmin/
+```
+
+Database Connection:
+```bash
+php
+// In config/database.php
+require_once 'config/database.php';
+```
