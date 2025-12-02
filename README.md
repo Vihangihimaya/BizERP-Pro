@@ -1,4 +1,4 @@
-# ERP System
+### ERP System
 
 A simple ERP system built with PHP and MySQL for customer, item, and invoice management.
 A complete Enterprise Resource Planning (ERP) system built with PHP and MySQL for managing customers, inventory, and business reports.
